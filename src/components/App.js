@@ -1,9 +1,10 @@
 import '../App.css';
+import BooksList from '../containers/BooksList';
 
-function App() {
-  return (
-    <div className="App" />
-  );
-}
+const App = () => (
+  <div>
+    <BooksList />
+  </div>
+);
 
 export default App;
