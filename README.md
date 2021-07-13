@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+<div align="center">
+  <h1><b>Bookstore</b></h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A bookstore app built with React and Redux.
+<br>  
+  
 
-## Available Scripts
+## Live Version
+https://flamboyant-clarke-bee74a.netlify.app/
+</div>
+<br>  
 
-In the project directory, you can run:
 
-### `yarn start`
+## Content
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<a text-align="center" href="#about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#ins">Installations</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#usage">Usage</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#app">App</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#with">Built With</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#author">Author</a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+## About <a name = "about"></a>
+This project was a task by Microverse Inc. to build a calculator app with React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## 🔧 Built with<a name = "with"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - [x] HTML5
+  - [x] CSS3
+  - [x] Vanilla Javascript
+  - [x] Webpack
+  - [x] React
+  - [x] Redux
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage <a name = "usage"></a>
+To use the code in this repository, follow the steps in this section:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🔨 Prerequisites
+ You should have the following packages installed on your computer inorder to run the code contained herein.
 
-### `yarn eject`
+- Node JS 
+- npm and npx
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 🔨 Setup
+First get a copy of the project on your computer:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Clone or download the repository to a local directory on your computer by following the Github instructions at [Github clone/download repository](https://docs.github.com/en/enterprise/2.13/user/articles/cloning-a-repository).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 🛠 Installing <a name = "ins"></a>
+Once you have a local copy of the entire project on your computer,
+If you don't meet the above prerequisites, then:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Visit [node download and installations docs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to install node js and npm.
 
-## Learn More
+###  App <a name = "app"></a>
+With the installations above complete, you are set to use the code and view the application built in this repository. Follow these simple steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Change directory into the directory where you cloned the repository. Forexample ``vanheaven@vanheaven-VirtualBox:~/Microverse-projects$ cd calculator.``
+- Open the index.html file using your browser
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ✒️  Authors <a name = "author"></a>
 
-### Code Splitting
+👤 **Marco Erhardt**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Github: [@marcode95](https://github.com/marcode95)
+- Linkedin: [@linkedin](https://www.linkedin.com/in/marcoerhardt95/)
 
-### Analyzing the Bundle Size
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions, issues and feature requests are welcome!
 
-### Making a Progressive Web App
+To contribute to the code base, follow the steps below:
+  1. Fork this repository to your remote respository by clicking the Fork button in this repository.
+  2. Clone this repository to a directory on your computer by following Github guidelines.
+  3. Change directory into the directory where you cloned this repository to.
+  4. Open the directory using your favorite editor.
+  5. Create a feature branch off the develop branch.
+  5. Make and commit the nuanced code.
+  6. Open a pull request describing the improvements made
+And your reward awaits in heaven.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## 👍 Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Give a ⭐️ if you like this project!
