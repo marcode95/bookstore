@@ -6,7 +6,7 @@ A bookstore app built with React and Redux.
   
 
 ## Live Version
-https://flamboyant-clarke-bee74a.netlify.app/
+https://heuristic-bhabha-1a36ea.netlify.app/
 </div>
 <br>  
 
