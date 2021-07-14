@@ -1,14 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Book = ({ book }) => (
-  <div>
-    {book}
-  </div>
-);
+export default function Book({ book }) {
+  const { id, title, category } = book;
 
-Book.propTypes = {
-  book: PropTypes.instanceOf(Array).isRequired,
+  return (
+    <tr>
+      <td>{id}</td>
+      <td>{title}</td>
+      <td>{category}</td>
+    </tr>
+  );
+}
+
+Book.defaultProps = {
+  book: {},
 };
 
-export default Book;
+Book.propTypes = {
+  book: PropTypes.shape({
+    id: PropTypes.string,
+    title: PropTypes.string,
+    category: PropTypes.string,
+  }),
+};

@@ -11,10 +11,14 @@ const BooksList = ({ books }) => (
   </table>
 );
 
-BooksList.propTypes = {
-  books: PropTypes.instanceOf(Array).isRequired,
-};
-
 const mapStateToProps = (state) => ({ books: state.books });
 
 export default connect(mapStateToProps)(BooksList);
+
+BooksList.defaultProps = {
+  books: [],
+};
+
+BooksList.propTypes = {
+  books: PropTypes.oneOfType([PropTypes.array]),
+};
