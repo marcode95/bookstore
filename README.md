@@ -22,7 +22,7 @@ https://heuristic-bhabha-1a36ea.netlify.app/
 
 
 ## About <a name = "about"></a>
-This project was a task by Microverse Inc. to build a calculator app with React.
+This project was a task by Microverse Inc. to build a calculator app using React and Redux.
 
 
 ## 🔧 Built with<a name = "with"></a>
