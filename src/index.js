@@ -6,27 +6,7 @@ import { createStore } from 'redux';
 import App from './components/App';
 import rootReducer from './reducers/index';
 
-const initialState = {
-  books: [
-    {
-      id: Math.floor(Math.random()).toString(),
-      title: 'Die Blechtrommel',
-      category: 'History',
-    },
-    {
-      id: Math.floor(Math.random()).toString(),
-      title: 'Faust',
-      category: 'Drama',
-    },
-    {
-      id: Math.floor(Math.random()).toString(),
-      title: 'Im Westen nichts Neues',
-      category: 'History',
-    },
-  ],
-};
-
-const store = createStore(rootReducer, initialState);
+const store = createStore(rootReducer);
 
 ReactDOM.render(
   <React.StrictMode>
