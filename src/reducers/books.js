@@ -17,12 +17,12 @@ const initialState = [
 ];
 
 const booksReducer = (state = initialState, action) => {
-  const { type, book } = action;
+  const { type, payload } = action;
   switch (type) {
     case 'CREATE_BOOK':
-      return state.concat(book);
+      return state.concat(payload);
     case 'REMOVE_BOOK':
-      return state.filter((oldBook) => oldBook !== action.payload);
+      return state.filter((oldBook) => oldBook !== payload);
     default:
       return state;
   }
