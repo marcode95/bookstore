@@ -22,7 +22,7 @@ const booksReducer = (state = initialState, action) => {
     case 'CREATE_BOOK':
       return state.concat(book);
     case 'REMOVE_BOOK':
-      return state.filter((oldBook) => oldBook.id !== book.id);
+      return state.filter((oldBook) => oldBook !== action.payload);
     default:
       return state;
   }
