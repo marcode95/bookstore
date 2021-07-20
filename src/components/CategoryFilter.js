@@ -1,18 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import categories from '../categories/categories';
-import { changeFilter } from '../actions/index';
 
-const CategoryFilter = ({ createBook }) => {
-  
-  const handleChange = (e) => {
-    changeFilter(e.target.value)
-  };
-
-  return (
-  <select onClick={handleChange}>
-    {categories.map((cat) => (<option name="category" key={cat}>{cat}</option>))}
+const CategoryFilter = ({ onChangeHandler }) => (
+  <select onChange={(e) => onChangeHandler(e.target.value)}>
+    {categories.map((cat) => (<option key={cat} value={cat}>{cat}</option>))}
   </select>
-  );
+);
+
+CategoryFilter.propTypes = {
+  onChangeHandler: PropTypes.func.isRequired,
 };
 
 export default CategoryFilter;

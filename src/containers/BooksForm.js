@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { createBook } from '../actions/index';
 import categories from '../categories/categories';
- 
+
 const BooksForm = ({ createBook }) => {
   const [state, setState] = useState(
     {
@@ -33,8 +33,8 @@ const BooksForm = ({ createBook }) => {
       <form method="POST" onSubmit={handleSubmit}>
         <input type="text" placeholder="Title" name="title" value={state.title} onChange={handleChange} required />
         <br />
-        <select onClick={handleChange}>
-          {categories.map((cat) => (<option name="category" value={state.category} key={cat}>{cat}</option>))}
+        <select onChange={handleChange} name="category" value={state.category}>
+          {categories.map((cat) => (<option key={cat}>{cat}</option>))}
         </select>
         <input type="submit" id="bookSubmit" />
       </form>

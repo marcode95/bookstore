@@ -5,12 +5,14 @@ export default function Book({ book, handleRemoveBook }) {
   const { id, title, category } = book;
 
   return (
-    <tr>
-      <td>{id}</td>
-      <td>{title}</td>
-      <td>{category}</td>
+    <tbody>
+      <tr>
+        <td>{id}</td>
+        <td>{title}</td>
+        <td>{category}</td>
+      </tr>
       <button type="button" onClick={() => handleRemoveBook(book)}>Remove</button>
-    </tr>
+    </tbody>
   );
 }
 
@@ -20,7 +22,7 @@ Book.defaultProps = {
 
 Book.propTypes = {
   book: PropTypes.shape({
-    id: PropTypes.string,
+    id: PropTypes.number,
     title: PropTypes.string,
     category: PropTypes.string,
   }),

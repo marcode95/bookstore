@@ -10,9 +10,9 @@ const removeBook = (book) => ({
   payload: book,
 });
 
-const changeFilter = (category) => ({
+const changeFilter = (filter) => ({
   type: CHANGE_FILTER,
-  payload: category,
+  payload: filter,
 });
 
 export {

@@ -1,16 +1,16 @@
 const initialState = [
   {
-    id: Math.floor(Math.random() * 100).toString(),
+    id: Math.floor(Math.random() * 100),
     title: 'Die Blechtrommel',
     category: 'History',
   },
   {
-    id: Math.floor(Math.random() * 100).toString(),
+    id: Math.floor(Math.random() * 100),
     title: 'Faust',
     category: 'Drama',
   },
   {
-    id: Math.floor(Math.random() * 100).toString(),
+    id: Math.floor(Math.random() * 100),
     title: 'Im Westen nichts Neues',
     category: 'History',
   },
