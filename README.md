@@ -19,7 +19,7 @@ A bookstore app built with React and Redux.
 
 
 ## About <a name = "about"></a>
-This project was a task by Microverse Inc. to build a calculator app using React and Redux.
+This project was a task by Microverse Inc. to build a calculator app using React & Redux.
 
 
 ## 🔧 Built with<a name = "with"></a>
