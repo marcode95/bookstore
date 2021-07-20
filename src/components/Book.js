@@ -27,10 +27,11 @@ export default function Book({ book, handleRemoveBook }) {
           <p className="completed">Completed</p>
         </div>
       </div>
+      <div className="divider" />
       <div className="book-reading-info">
-        <p>Current Chapter</p>
-        <p>Chapter 16</p>
-        <button type="button">UPDATE PROGRESS</button>
+        <p className="current-chapter">Current Chapter</p>
+        <p className="chapter-number">Chapter 16</p>
+        <button className="update-progress" type="button">UPDATE PROGRESS</button>
       </div>
     </div>
   );
