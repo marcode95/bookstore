@@ -66,11 +66,11 @@ h1 {
   font-size: 18px;
   font-weight: bold;
   margin-top: 5px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .book-author {
-  margin-top: 0px;
+  margin-top: 0;
   font-size: 12px;
   color: #4386bf;
   margin-bottom: 30px;
@@ -80,7 +80,7 @@ h1 {
   background-color: transparent;
   border: none;
   color: #4386bf;
-  padding: 0px 10px;
+  padding: 0 10px;
 }
 
 .book-info-buttons > *:hover {
@@ -98,15 +98,12 @@ h1 {
 
 .book-circle {
   width: 23%;
+  display: flex;
 }
 
 .progress-bar {
   width: 35%;
   align-self: center;
-}
-
-.book-circle {
-  display: flex;
 }
 
 .progress-description {
@@ -135,7 +132,7 @@ h1 {
 .current-chapter {
   font-size: 13px;
   color: lightgrey;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .chapter-number {
