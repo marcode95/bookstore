@@ -5,9 +5,6 @@ A bookstore app built with React and Redux.
 <br>  
   
 
-## Live Version
-https://heuristic-bhabha-1a36ea.netlify.app/
-</div>
 <br>  
 
 
