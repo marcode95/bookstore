@@ -17,11 +17,9 @@ const BooksList = ({ books, removeBook, changeFilter }) => {
   return (
     <div>
       <CategoryFilter onChangeHandler={handleFilterChange} />
-      <table>
-        {books.map(
-          (book) => (<Book book={book} key={book.id} handleRemoveBook={handleRemoveBook} />),
-        )}
-      </table>
+      {books.map(
+        (book) => (<Book book={book} key={book.id} handleRemoveBook={handleRemoveBook} />),
+      )}
     </div>
   );
 };
