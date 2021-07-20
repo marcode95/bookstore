@@ -30,14 +30,14 @@ const BooksForm = ({ createBook }) => {
 
   return (
     <div className="book-form">
-      <h2>ADD NEW BOOK</h2>
-      <form method="POST" onSubmit={handleSubmit} className="book-form-container">
+      <h2 className="grey">ADD NEW BOOK</h2>
+      <form method="POST" onSubmit={handleSubmit} className="book-form-container flex">
         <input type="text" className="input-field" placeholder="Title" name="title" value={state.title} onChange={handleChange} required />
         <br />
         <select onChange={handleChange} name="category" value={state.category} className="input-form">
           {categories.map((cat) => (<option key={cat}>{cat}</option>))}
         </select>
-        <input type="submit" id="bookSubmit" className="input-submit" />
+        <input type="submit" id="bookSubmit" className="input-submit blue" />
       </form>
     </div>
   );

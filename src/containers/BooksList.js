@@ -16,9 +16,9 @@ const BooksList = ({ books, removeBook, changeFilter }) => {
 
   return (
     <div>
-      <div className="navbar">
-        <h1>Bookstore CMS</h1>
-        <p className="navbar-books">BOOKS</p>
+      <div className="navbar flex">
+        <h1 className="blue">Bookstore CMS</h1>
+        <p className="navbar-books align-self-center">BOOKS</p>
         <CategoryFilter onChangeHandler={handleFilterChange} />
       </div>
       {books.map(

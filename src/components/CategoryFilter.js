@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import categories from '../categories/categories';
 
 const CategoryFilter = ({ onChangeHandler }) => (
-  <select onChange={(e) => onChangeHandler(e.target.value)} className="select-field">
+  <select onChange={(e) => onChangeHandler(e.target.value)} className="select-field align-self-center">
     {categories.map((cat) => (<option key={cat} value={cat}>{cat}</option>))}
   </select>
 );
