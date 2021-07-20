@@ -1,27 +1,191 @@
-body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.grey {
+  color: grey;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.blue {
+  color: #4386bf;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  background-color: rgb(242, 242, 242);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto 0;
+}
+
+.navbar {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  width: 100vw;
+}
+
+h1 {
+  margin-left: 220px;
+  margin-right: 40px;
+}
+
+.navbar-books {
+  font-size: 13px;
+  margin-right: 40px;
+}
+
+.select-field {
+  height: 20px;
+}
+
+.book-container {
+  width: 800px;
+  height: 130px;
+  background-color: white;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: 1px solid lightgrey;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.book-container:hover {
+  border: 1px solid blue;
+}
+
+.book-info {
+  margin-top: 15px;
+  width: 47%;
+  flex-direction: column;
+}
+
+.book-category {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.book-id {
+  display: none;
+}
+
+.book-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.book-author {
+  margin-top: 0;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+.book-info-buttons > * {
+  background-color: transparent;
+  border: none;
+  padding: 0 10px;
+}
+
+.book-info-buttons > *:hover {
+  text-decoration: underline;
+}
+
+.comments-button {
+  padding-left: 0;
+}
+
+.remove-button {
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}
+
+.book-circle {
+  width: 23%;
+}
+
+.progress-bar {
+  width: 35%;
+}
+
+.progress-description {
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+  padding-bottom: 20px;
+}
+
+.percentage {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.completed {
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.book-reading-info {
+  width: 30%;
+}
+
+.current-chapter {
+  font-size: 13px;
+  color: lightgrey;
+  margin-bottom: 0;
+}
+
+.chapter-number {
+  margin-top: 7px;
+  font-size: 15px;
+}
+
+.update-progress {
+  border: none;
+  color: white;
+  font-size: 11px;
+  padding: 5px 10px;
+  background-color: #4386bf;
+}
+
+.divider {
+  width: 0;
+  height: 60%;
+  border-right: 1px solid lightgrey;
+  margin-right: 35px;
+}
+
+.book-form {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.book-form-container {
+  justify-content: flex-start;
+}
+
+.input-field {
+  height: 30px;
+  width: 55%;
+  margin-right: 7.5%;
+}
+
+.input-form {
+  width: 15%;
+  margin-right: 7.5%;
+}
+
+.input-submit {
+  width: 15%;
+  color: white;
+  border: none;
+  background-color: #4386bf;
 }
