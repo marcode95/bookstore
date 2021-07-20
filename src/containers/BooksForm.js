@@ -29,14 +29,15 @@ const BooksForm = ({ createBook }) => {
   };
 
   return (
-    <div>
-      <form method="POST" onSubmit={handleSubmit}>
-        <input type="text" placeholder="Title" name="title" value={state.title} onChange={handleChange} required />
+    <div className="book-form">
+      <h2>ADD NEW BOOK</h2>
+      <form method="POST" onSubmit={handleSubmit} className="book-form-container">
+        <input type="text" className="input-field" placeholder="Title" name="title" value={state.title} onChange={handleChange} required />
         <br />
-        <select onChange={handleChange} name="category" value={state.category}>
+        <select onChange={handleChange} name="category" value={state.category} className="input-form">
           {categories.map((cat) => (<option key={cat}>{cat}</option>))}
         </select>
-        <input type="submit" id="bookSubmit" />
+        <input type="submit" id="bookSubmit" className="input-submit" />
       </form>
     </div>
   );
