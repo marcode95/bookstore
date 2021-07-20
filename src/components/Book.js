@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import progress from '../assets/progress.png';
 
 export default function Book({ book, handleRemoveBook }) {
   const { id, title, category } = book;
@@ -7,10 +8,9 @@ export default function Book({ book, handleRemoveBook }) {
   return (
     <div className="book-container">
       <div className="book-info">
-        <span className="id-and-category">
-          {id}
-          <span> </span>
+        <span className="book-category">
           {category}
+          <span className="book-id">{id}</span>
         </span>
         <p className="book-title">{title}</p>
         <p className="book-author">Mr.Author</p>
@@ -21,7 +21,11 @@ export default function Book({ book, handleRemoveBook }) {
         </div>
       </div>
       <div className="book-circle">
-        <p className="percentage">69%</p>
+        <img src={progress} alt="circled progress bar" className="progress-bar" />
+        <div className="progress-description">
+          <p className="percentage">25%</p>
+          <p className="completed">Completed</p>
+        </div>
       </div>
       <div className="book-reading-info">
         <p>Current Chapter</p>
